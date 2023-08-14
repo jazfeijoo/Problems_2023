@@ -27,6 +27,6 @@ const same = function(arr1, arr2){
 
 }
 
-same([1,2,2,4], [1,16,4,4])
-console.log(same([1,2,2,4], [1,16,4,4]))
+// same([1,2,2,4], [1,16,4,4])
+// console.log(same([1,2,2,4], [1,16,4,4]))
 
