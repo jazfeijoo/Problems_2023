@@ -27,4 +27,4 @@ const lengthOfLongestSubString = function(string){
 
 // lengthOfLongestSubString("abcabcbb") // 3
 // lengthOfLongestSubString("bbbb") // 1
-lengthOfLongestSubString("pwwkertw") // 5
+//lengthOfLongestSubString("pwwkertw") // 5
