@@ -12,7 +12,7 @@ var twoSum = function(nums, target) {
 };
 
 let test1 = twoSum([-1,-2,-3,-4,-5], -8)
-console.log('TEST 1:', test1)
+// console.log('TEST 1:', test1)
 // let test2 = twoSum([2,7,11,15], 9)
 // let test3 = twoSum([3,3], 6)
 
