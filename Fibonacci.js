@@ -17,6 +17,6 @@ const fibonacciFinder = function(n) {
   return curr
 }
 
-fibonacciFinder(6)
+// fibonacciFinder(6)
 
 //RECURSIVE SOLUTION:
