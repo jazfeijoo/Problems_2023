@@ -8,24 +8,31 @@
 
 // Note that nums is sorted in non-decreasing order.
 
-function minLengthAfterRemovals(arr){
-  let i = 0
-  let j = 1
+function minLengthAfterRemovals(nums){
+let len = nums.length
+let removed = 0
+let half = Math.floor(len/2)
+for (let i = 0; j = half; i < half && j < len){
+ let left = nums[i]
+ let right = nums[j]
+ if (left < right){
+  removed += 2
+  i++
+  j++
+ } else {
+  j++
+ }
+}
+console.log('RETURN', len - removed)
+return len - removed;
 
-  while (j < arr.length){
-    if (arr[i] < arr[j]){
-      arr.splice(i, 2)
-    }
-    else if (arr[i] === arr[j]){
-      j++
-    }
-    else {
-      return
-    }
-  }
-  console.log('RETURN', arr.length)
- return arr.length
 }
 
-minLengthAfterRemovals([2,3,6,9])//0
-minLengthAfterRemovals([1,1,2]) // 1
+//   minLengthAfterRemovals([2,3,6,9])//0
+//   minLengthAfterRemovals([1,1,2]) // 1
+//  minLengthAfterRemovals([1,1,2,2]) // 0
+//  minLengthAfterRemovals([1,3,3,3,4]) // 1
+//  minLengthAfterRemovals([1,1,1,1,1]) // 5
+
+
+
