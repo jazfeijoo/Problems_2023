@@ -28,8 +28,11 @@ return len - removed;
 
 }
 
-  minLengthAfterRemovals([2,3,6,9])//0
-  minLengthAfterRemovals([1,1,2]) // 1
- minLengthAfterRemovals([1,1,2,2]) // 0
- minLengthAfterRemovals([1,3,3,3,4]) // 1
- minLengthAfterRemovals([1,1,1,1,1]) // 5
+//   minLengthAfterRemovals([2,3,6,9])//0
+//   minLengthAfterRemovals([1,1,2]) // 1
+//  minLengthAfterRemovals([1,1,2,2]) // 0
+//  minLengthAfterRemovals([1,3,3,3,4]) // 1
+//  minLengthAfterRemovals([1,1,1,1,1]) // 5
+
+
+
