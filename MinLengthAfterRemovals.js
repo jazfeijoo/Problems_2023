@@ -23,7 +23,7 @@ var findPairs = function(nums, k) {
     if (curr === 0 || k === 0){
       count = map[diff1]? count+1 : count
     } else {
-      if (curr < k){
+      if (curr < k && 0 < curr){
         count = map[diff2]? count+1: count
       } else {
 
